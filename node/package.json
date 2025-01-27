@@ -1,0 +1,36 @@
+{
+  "dependencies": {
+    "co-body": "^6.2.0",
+    "cookie": "^0.4.1",
+    "graphql": "14.0.0",
+    "graphql-tools": "4.0.0",
+    "ramda": "^0.26.1"
+  },
+  "devDependencies": {
+    "@types/co-body": "^0.0.3",
+    "@types/cookie": "^0.4.1",
+    "@types/jest": "^24.0.18",
+    "@types/node": "^12.0.0",
+    "@types/ramda": "0.26.39",
+    "@vtex/api": "6.48.0",
+    "@vtex/test-tools": "^1.0.0",
+    "@vtex/tsconfig": "^0.5.6",
+    "typescript": "3.9.7",
+    "vtex.css-handles": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@0.4.4/public/@types/vtex.css-handles",
+    "vtex.disclosure-layout": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.disclosure-layout@1.0.3/public/@types/vtex.disclosure-layout",
+    "vtex.list-context": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.list-context@0.2.0/public/@types/vtex.list-context",
+    "vtex.product-summary": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-summary@2.90.1/public/@types/vtex.product-summary",
+    "vtex.responsive-layout": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.responsive-layout@0.1.4/public/@types/vtex.responsive-layout",
+    "vtex.rich-text": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.rich-text@0.16.0/public/@types/vtex.rich-text",
+    "vtex.slider-layout": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.slider-layout@0.24.6/public/@types/vtex.slider-layout",
+    "vtex.store": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store@2.137.3/public/@types/vtex.store",
+    "vtex.store-components": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-components@3.175.1/public/@types/vtex.store-components",
+    "vtex.store-drawer": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-drawer@0.17.2/public/@types/vtex.store-drawer",
+    "vtex.store-graphql": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-graphql@2.172.1/public/@types/vtex.store-graphql",
+    "vtex.store-icons": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-icons@0.18.0/public/@types/vtex.store-icons",
+    "vtex.styleguide": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.13/public/@types/vtex.styleguide"
+  },
+  "scripts": {
+    "lint": "tsc --noEmit --pretty"
+  }
+}

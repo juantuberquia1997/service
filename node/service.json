@@ -1,0 +1,32 @@
+{
+    "stack": "nodejs",
+    "memory": 256,
+    "ttl": 10,
+    "timeout": 40,
+    "minReplicas": 5,
+    "maxReplicas": 20,
+    "cpu": {
+        "type": "shared",
+        "value": 15,
+        "scalingPercentage": 95
+    },
+    "workers": 2,
+    "routes": {
+        "searchDocumentsMD": {
+            "path": "/_v/:dataEntity/search",
+            "public": true
+        },
+        "createOrUpdateDocument": {
+            "path": "/_v/:dataEntity/document",
+            "public": true
+        },
+        "deleteDocument": {
+            "path": "/_v/:dataEntity/documentDelete",
+            "public": true
+        },
+        "health": {
+            "path": "/_v/health",
+            "public": true
+        }
+    }
+}

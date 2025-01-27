@@ -1,0 +1,15 @@
+{
+  "qr-validation": {
+    "component": "QrValidation",
+    "composition": "children"
+  },
+  "qr-redirect": {
+    "component": "QrRedirect"
+  },
+  "qr-save": {
+    "component": "QrSave"
+  },
+  "save-info-user": {
+    "component": "SaveInfoUser"
+  }
+}

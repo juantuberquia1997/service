@@ -1,0 +1,11 @@
+{
+  "name": "Componente Blacksip",
+  "headline": "Descrição do corte do componente",
+  "overview": "Descrição larga do componente",
+  "features": ["Característica 1", "Característica 1"],
+  "additionalInformation": "Informações adicionais do componente",
+  "websiteURL": "https://blacksip.com/",
+  "support": {
+    "url": "https://blacksip.com/"
+  }
+}

@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Protect master from accidental commits.
+BRANCH=$(git rev-parse --abbrev-ref HEAD)
+PROTECTED_BRANCHES="^(master|develop)"
+
+if [[ "$BRANCH" =~ $PROTECTED_BRANCHES ]]; then
+    echo -e "\n🚫 Commit directly to $BRANCH branch is not allowed! "
+    echo -e "🚫 Please create your own branch and use pull requests \n"
+    exit 1
+fi
+
+exit 0

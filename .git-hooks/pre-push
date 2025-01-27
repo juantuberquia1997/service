@@ -1,0 +1,24 @@
+#!/bin/bash
+
+BRANCH=$(git rev-parse --abbrev-ref HEAD)
+PROTECTED_BRANCHES="^(master|develop)"
+REGEX="^(feature|hotfix|bugfix|release)\/[a-zA-Z0-9-]+[[a-zA-Z0-9]$"
+
+if [[ $1 != *"$BRANCH"* ]]; then
+    echo -e "\n🚫 Push the changes to your specific branch"
+    echo -e "🚫 You must use (git push origin $BRANCH) \n"
+    exit 1
+fi
+
+if [[ "$BRANCH" =~ $PROTECTED_BRANCHES ]]; then
+    echo -e "🚫 You can't push to remote $BRANCH branch, please create your own branch and create a pull request to merge \n"
+    exit 1
+fi
+
+if ! [[ $BRANCH =~ $REGEX ]]; then
+    echo -e "\n🚫 Your commit was rejected due to branching name"
+    echo -e "🚫 Please use the following pattern: (feature|hotfix|release)/{name}"
+    exit 1
+fi
+
+exit 0
