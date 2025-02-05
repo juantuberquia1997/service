@@ -1,11 +1,10 @@
 {
-  "vendor": "hacebco",
-  "name": "qr-code",
-  "version": "0.0.12",
-  "title": "validator QR component ",
-  "description": "For support contact https://blacksip.com",
+  "vendor": "vtex",
+  "name": "service",
+  "version": "0.0.1",
+  "title": "service vtex ",
+  "description": "service vtex",
   "builders": {
-    "react": "3.x",
     "store": "0.x",
     "messages": "1.x",
     "docs": "0.x",

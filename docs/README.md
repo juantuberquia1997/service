@@ -17,7 +17,7 @@ To use this app, you need to import in your dependencies on `manifest.json`.
 
 ```json
   "peerDependencies": {
-    "blacksip.component": "0.x"
+    "vtex.component": "0.x"
   }
 ```
 

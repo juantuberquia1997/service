@@ -1,11 +1,11 @@
 {
-  "name": "Blacksip componente",
+  "name": "vtex componente",
   "headline": "Descripcion corta del componente",
   "overview": "Descripcion larga del componente",
   "features": ["Caracteristica 1", "Caracteristica 2"],
   "additionalInformation": "Informacion adicional del componente",
-  "websiteURL": "https://blacksip.com/",
+  "websiteURL": "https://vtex.com/",
   "support": {
-    "url": "https://blacksip.com/"
+    "url": "https://vtex.com/"
   }
 }
